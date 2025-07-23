@@ -1,4 +1,17 @@
 
+// Preloader: Show for at least 5 seconds
+window.addEventListener("load", function () {
+  const preloader = document.getElementById("preloader");
+
+  // Always wait 5 seconds minimum, even if page loads faster
+  setTimeout(() => {
+    preloader.style.opacity = "0";
+    preloader.style.transition = "opacity 0.5s ease";
+    setTimeout(() => {
+      preloader.style.display = "none";
+    }, 500); // after fade
+  }, 1000); // 1 second hold
+});
 
 
 // Smooth Scrolling for Navbar Links
@@ -33,3 +46,6 @@
       document.getElementById(targetId).classList.add("active");
     });
   });
+
+
+
