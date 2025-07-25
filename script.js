@@ -14,6 +14,45 @@ window.addEventListener("load", function () {
 });
 
 
+
+// Scroll to Top Button
+// Show button after scrolling down 300px
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      scrollTopBtn.classList.add("show");
+    } else {
+      scrollTopBtn.classList.remove("show");
+    }
+  });
+
+  scrollTopBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+
+
+window.addEventListener("load", function () {
+  // existing preloader code...
+  
+  setTimeout(() => {
+    preloader.style.opacity = "0";
+    preloader.style.transition = "opacity 0.5s ease";
+    setTimeout(() => {
+      preloader.style.display = "none";
+
+      // ✅ Refresh AOS after preloader disappears
+      AOS.refresh();
+    }, 500);
+  }, 1000);
+});
+
+
+
 // Smooth Scrolling for Navbar Links
 
       window.addEventListener('scroll', function () {

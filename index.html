@@ -1,146 +1,150 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CovAI Nexus</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CovAI Nexus</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
+<a href="#" id="scrollTopBtn" class="scroll-top-btn">
+  &#8679;
+</a>
 <body>
 <!-- Preloader -->
-  <div id="preloader">
-  <div class="loader"></div>
-   </div>
-      <!-- Hero Section -->
-  <header class="hero d-flex align-items-center text-center text-white" id="home">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
-      <div class="container">
+<div id="preloader">
+<div class="loader"></div>
+</div>
+<!-- Hero Section -->
+<header class="hero d-flex align-items-center text-center text-white" id="home">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
+<div class="container">
 <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
-  <img src="img/logo.png" alt="CovAI Nexus Logo" style="width: 120px;; height: 100px; margin-right: 10px; filter: brightness(0) invert(1);">
-  
+<img alt="CovAI Nexus Logo" src="img/logo.png" style="width: 120px;; height: 100px; margin-right: 10px; filter: brightness(0) invert(1);"/>
 </a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-  <span class="navbar-toggler-icon"></span>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
 </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#vision">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Our Products</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="product1.html">Back Office 4.0</a></li>
-                <li><a class="dropdown-item" href="product2.html">Connected Enterprise Studio</a></li>
-              </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-          <a href="#service" class="btn btn-outline-light ms-3">Get Started</a>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container mt-5 pt-5" id="home">
-      <h1 class="display-4 fw-bold">TRANSFORM. AUTOMATE. SCALE.</h1>
-      <p class="lead">We empower global enterprises with intelligent, secure, and efficient Back Office 4.0 operations — from Finance and HR to Compliance and Customer Support.</p>
-      <div class="d-flex justify-content-center gap-3">
-        <a href="#services" class="btn btn-danger">Start Your Transformation</a>
-        <a href="#service" class="btn btn-outline-light d-flex align-items-center">
-          <span class="me-2"></span> See Capabilities in Action
-        </a>
-      </div>
-    </div>
-  </header>
-
-    <!-- Vision Starts -->
-    
-<section class="vision-section text-center" id="vision">
-  <div class="container">
-    <div class="vision-subtitle">Our Vision</div>
-    <h2 class="vision-title">Empowering Operational Excellence Through Digital Intelligence<br>Your Trusted Back Office Partner – Designed for Scale, Built for Insight</h2>
-
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="vision-card">
-          <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Professionalism">
-          <h5>💼 Operational Precision</h5>
-          <p>We bring discipline, accuracy, and consistency to every process we touch. With well-documented SOPs, SLA commitments, and layered QA, our team ensures that no task is just transactional — it’s a step toward excellence.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="vision-card">
-          <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Responsiveness">
-          <h5>⚡ Agility in Service</h5>
-          <p>At CovAI Nexus, responsiveness is at the heart of our delivery model. Whether it's HR onboarding, payroll runs, or financial reconciliations, our team works in your time zone, speaks your process language, and moves fast with confidence.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="vision-card">
-          <img src="https://cdn-icons-png.flaticon.com/512/709/709790.png" alt="Quality in Growth">
-          <h5>📈 Continuous Value Creation</h5>
-          <p>We’re not just about cost savings — we’re about outcomes. Our services are designed to grow with you, integrating automation, analytics, and best practices to deliver measurable business impact quarter after quarter.</p>
-        </div>
-      </div>
-    </div>
-
-    <button class="vision-btn mt-4">Who we are &nbsp; →</button>
+<div class="collapse navbar-collapse fw-semibold" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#vision">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Our Products</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item fw-semibold" href="product1.html">Back Office 4.0</a></li>
+<li><a class="dropdown-item fw-semibold" href="product2.html">Connected Enterprise Studio</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+<a class="btn btn-outline-light ms-3" href="#service">Get Started</a>
+</div>
+</div>
+</nav>
+<div class="container mt-5 pt-5" id="home">
+  <h1 class="display-4 fw-bold" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+    TRANSFORM. AUTOMATE. SCALE.
+  </h1>
+  <p class="lead fw-semibold" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000">
+    We empower global enterprises with intelligent, secure, and efficient Back Office 4.0 operations — from Finance and HR to Compliance and Customer Support.
+  </p>
+  <div class="d-flex justify-content-center gap-3">
+    <a class="btn btn-danger" href="#services" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">
+      Start Your Transformation
+    </a>
+    <a class="btn btn-outline-light d-flex align-items-center" href="#service" data-aos="fade-up" data-aos-delay="700" data-aos-duration="2000">
+      <span class="me-2" data-aos="fade-up" data-aos-delay="800" data-aos-duration="2000">🚀</span>
+      See Capabilities in Action
+    </a>
   </div>
+</div>
+
+
+</header>
+<!-- Vision Starts -->
+<section class="vision-section text-center" id="vision">
+<div class="container">
+<div class="vision-subtitle">Our Vision</div>
+<h2 class="vision-title">Empowering Operational Excellence Through Digital Intelligence<br/>Your Trusted Back Office Partner – Designed for Scale, Built for Insight</h2>
+<div class="row g-4">
+<div class="col-md-4">
+<div class="vision-card" data-aos="fade-up">
+<img alt="Professionalism" src="https://cdn-icons-png.flaticon.com/512/847/847969.png"/>
+<h4>💼 Operational Precision</h4>
+<p class="fw-semibold">We bring discipline, accuracy, and consistency to every process we touch. With well-documented SOPs, SLA commitments, and layered QA, our team ensures that no task is just transactional — it’s a step toward excellence.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="vision-card" data-aos="fade-up">
+<img alt="Responsiveness" src="https://cdn-icons-png.flaticon.com/512/190/190411.png"/>
+<h4>⚡ Agility in Service</h4>
+<p class="fw-semibold">At CovAI Nexus, responsiveness is at the heart of our delivery model. Whether it's HR onboarding, payroll runs, or financial reconciliations, our team works in your time zone, speaks your process language, and moves fast with confidence.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="vision-card" data-aos="fade-up">
+<img alt="Quality in Growth" src="https://cdn-icons-png.flaticon.com/512/709/709790.png"/>
+<h4>📈Continuous Value Creation</h4>
+<p class="fw-semibold">We’re not just about cost savings — we’re about outcomes. Our services are designed to grow with you, integrating automation, analytics, and best practices to deliver measurable business impact quarter after quarter.</p>
+</div>
+</div>
+</div>
+<button class="vision-btn mt-4">Who we are   →</button>
+</div>
 </section>
 
-
-
-
-
-  <!-- Featured Services Section -->
 <section class="py-5 bg-white" id="service">
   <div class="container">
     <div class="text-start mb-5">
       <p class="text-uppercase text-muted small fw-bold mb-1">Services</p>
-      <h2 class="fw-bold border-bottom border-3 border-danger d-inline-block pb-2">Featured Services</h2>
+      <h2 class="fw-bold featured-heading">
+        Featured Services
+      </h2>
     </div>
-
     <div class="row g-4">
       <!-- Card 1 -->
-      <div class="col-12 col-md-4">
-        <div class="card border-0 shadow-sm h-100">
-          <img src="img/finance.jpg" class="card-img-top" alt="Service 1">
-          <div class="card-body text-center">
-            <h5 class="card-title fw-bold">🧾 Finance & Accounting</h5>
-            <p class="card-text small text-muted">
-                From AP & AR to GL reconciliation and financial reporting, our expert-led services bring precision, timeliness, and compliance into your core operations—so your finance team can focus on strategy.
+      <div class="col-12 col-md-4"  data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card text-center">
+          <img src="img/finance.jpg" alt="Finance" />
+          <div class="card-content">
+            <div class="card-icon">🧾</div>
+            <h3>Finance & Accounting</h3>
+            <p>
+              From AP & AR to GL reconciliation and financial reporting, our expert-led services bring precision, timeliness, and compliance.
             </p>
           </div>
         </div>
       </div>
-
       <!-- Card 2 -->
-      <div class="col-12 col-md-4">
-        <div class="card border-0 shadow-sm h-100">
-          <img src="img/hr.jpg" class="card-img-top" alt="Service 2">
-          <div class="card-body text-center">
-            <h5 class="card-title fw-bold">👩‍💼 HR & Payroll Operations</h5>
-            <p class="card-text small text-muted">
-                End-to-end HR support—from onboarding to benefits and bi-weekly payroll—ensures smooth employee lifecycle management with secure record-keeping and seamless coordination across geographies.
-             </p>
+      <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card text-center">
+          <img src="img/hr.jpg" alt="HR" />
+          <div class="card-content">
+            <div class="card-icon">👩‍💼</div>
+            <h3>HR & Payroll Operations</h3>
+            <p>
+              End-to-end HR support—from onboarding to payroll—ensures smooth employee lifecycle management and secure records.
+            </p>
           </div>
         </div>
       </div>
-
       <!-- Card 3 -->
-      <div class="col-12 col-md-4">
-        <div class="card border-0 shadow-sm h-100">
-          <img src="img/ai.jpg" class="card-img-top" alt="Service 3">
-          <div class="card-body text-center">
-            <h5 class="card-title fw-bold">🧠 AI-Powered Process Automation</h5>
-            <p class="card-text small text-muted">
-              We identify high-effort repetitive tasks across back-office operations and deploy automation using RPA, OCR, and GenAI. Result: higher productivity, faster turnaround, and measurable ROI.
+      <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card text-center">
+          <img src="img/ai.jpg" alt="AI" />
+          <div class="card-content">
+            <div class="card-icon">🧠</div>
+            <h3>AI-Powered Automation</h3>
+            <p>
+              We identify repetitive tasks and automate them using RPA, OCR, and GenAI—boosting productivity and ROI.
             </p>
           </div>
         </div>
@@ -148,152 +152,164 @@
     </div>
   </div>
 </section>
+
 
 <!-- Section model-->
-<section class="py-5"  id="features">
-<div class="container my-5">
+<!-- Execution Model Section -->
+<section class="py-5 featured-services-section" id="features">
+  <div class="container my-5">
 
-  <!-- Feature Selector -->
-  <div class="row g-3 mb-4 fw-bold">
-    <div class="col-md-3">
-      <div class="icon-box active" data-target="feature1">
-        <i class="fa-solid fa-layer-group"></i>
-        <div> Discovery</div>
+    <!-- Section Header -->
+    <div class="section-header text-center mb-5">
+      <div class="mb-2">
+        <i class="fa-solid fa-screwdriver-wrench fa-2x text-danger"></i>
+      </div>
+      <p class="text-uppercase small">Execution Model</p>
+      <h2 class="fw-bold">A Structured, Zero-Disruption Approach to Build, Transfer & Scale Back Office Operations</h2>
+      <p class="text-muted lead mt-3">
+        We follow a proven 4-phase execution methodology designed to build trust, reduce transition risks, and deliver SLA-driven outcomes—from initial discovery to ongoing operations.
+      </p>
+    </div>
+
+    <!-- Feature Selector -->
+    <div class="row g-3 mb-4 fw-bold text-center">
+      <div class="col-md-3">
+        <div class="icon-box active" data-aos="fade-up" data-target="feature1">
+          <i class="fa-solid fa-layer-group"></i>
+          <div>Discovery</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="icon-box" data-aos="fade-up" data-target="feature2">
+          <i class="fa-solid fa-box-open"></i>
+          <div>Knowledge Transfer</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="icon-box" data-aos="fade-up" data-target="feature3">
+          <i class="fa-solid fa-sun"></i>
+          <div>Pilot</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="icon-box" data-aos="fade-up" data-target="feature4">
+          <i class="fa-solid fa-code-branch"></i>
+          <div>Steady State</div>
+        </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <div class="icon-box" data-target="feature2">
-        <i class="fa-solid fa-box-open"></i>
-        <div>Knowledge Transfer</div>
+
+    <!-- Feature Content Area -->
+    <div class="feature-content active" id="feature1">
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-up">
+          <h4 class="fw-bold text-primary">Duration: 3 Weeks</h4>
+          <p class="fst-italic text-muted">
+            Goal: Build trust, understand current processes, capture risks & pain points.
+          </p>
+          <ul class="list-unstyled feature-list">
+            <li><i class="fa-solid fa-check-double"></i> Conduct screen-share based live process mapping workshops</li>
+            <li><i class="fa-solid fa-check-double"></i> Capture "as-is" workflows, tribal knowledge, risks, and exceptions</li>
+            <li><i class="fa-solid fa-check-double"></i> Develop SOPs, exception logs, compliance checklists</li>
+            <li><i class="fa-solid fa-check-double"></i> Align policies to business rules for seamless transition</li>
+          </ul>
+          <p class="text-muted">
+            Outputs: Checklist volumes, frequency maps, process handbook
+          </p>
+        </div>
+        <div class="col-lg-6 feature-image" data-aos="fade-up">
+          <img alt="Feature One" src="img/discovery.jpg" />
+        </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <div class="icon-box" data-target="feature3">
-        <i class="fa-solid fa-sun"></i>
-        <div>Pilot</div>
+
+    <div class="feature-content" id="feature2">
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-up">
+          <h4 class="fw-bold text-success">Duration: 3 Weeks</h4>
+          <p class="fst-italic text-muted">Goal: Minimize resistance, ensure capability alignment</p>
+          <ul class="list-unstyled feature-list">
+            <li><i class="fa-solid fa-check-double"></i> Dual-run with current team</li>
+            <li><i class="fa-solid fa-check-double"></i> Reverse shadowing with playbook validation</li>
+            <li><i class="fa-solid fa-check-double"></i> Set up SOPs, change logs, FAQs, issue tracker</li>
+            <li><i class="fa-solid fa-check-double"></i> Weekly transition updates and governance syncs</li>
+          </ul>
+          <p class="text-muted">
+            Outputs: SOP repository, KPI tracker, transition reports
+          </p>
+        </div>
+        <div class="col-lg-6 feature-image" data-aos="fade-up">
+          <img alt="Feature Two" src="img/knowledge.jpg" />
+        </div>
       </div>
     </div>
-    <div class="col-md-3">
-      <div class="icon-box" data-target="feature4">
-        <i class="fa-solid fa-code-branch"></i>
-        <div>Steady State</div>
+
+    <div class="feature-content" id="feature3">
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-up">
+          <h4 class="fw-bold text-warning">Duration: 2 Weeks</h4>
+          <p class="fst-italic text-muted">Goal: Validate delivery capability at micro-scale</p>
+          <ul class="list-unstyled feature-list">
+            <li><i class="fa-solid fa-check-double"></i> Choose well-bounded scope (e.g. AP, Payroll)</li>
+            <li><i class="fa-solid fa-check-double"></i> Parallel processing with customer team to match outcomes</li>
+            <li><i class="fa-solid fa-check-double"></i> Review performance with Steering Committee</li>
+            <li><i class="fa-solid fa-check-double"></i> Iterate and refine before full-scale transition</li>
+          </ul>
+          <p class="text-muted">
+            Outputs: Pilot performance reports, sign-off documentation
+          </p>
+        </div>
+        <div class="col-lg-6 feature-image" data-aos="fade-up">
+          <img alt="Feature Three" src="img/pilot.jpg" />
+        </div>
       </div>
     </div>
+
+    <div class="feature-content" id="feature4">
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-up">
+          <h4 class="fw-bold text-info">Duration: Ongoing</h4>
+          <p class="fst-italic text-muted">Goal: Deliver SLA-bound, compliant, and scalable operations</p>
+          <ul class="list-unstyled feature-list">
+            <li><i class="fa-solid fa-check-double"></i> Business-as-usual execution across AP, AR, Payroll, HR, Recruitment</li>
+            <li><i class="fa-solid fa-check-double"></i> SLA dashboards for TAT, accuracy, hiring cycles</li>
+            <li><i class="fa-solid fa-check-double"></i> Weekly/monthly scorecards with analytics</li>
+            <li><i class="fa-solid fa-check-double"></i> Monthly Kaizen workshops & quarterly maturity reviews</li>
+          </ul>
+          <p class="text-muted">
+            Outputs: Live dashboards, quality reports, audit trail summaries, improvement logs
+          </p>
+        </div>
+        <div class="col-lg-6 feature-image" data-aos="fade-up">
+          <img alt="Feature Four" src="img/steady.jpg" />
+        </div>
+      </div>
+    </div>
+
   </div>
-
-  <!-- Feature Content Area -->
-  <div id="feature1" class="feature-content active">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <h4 class="fw-bold text-primary">Duration: 3 Weeks</h4>
-        <p class="fst-italic text-muted">
-         Goal: Build trust, understand current processes, capture risks & pain points.
-        </p>
-        <ul class="list-unstyled feature-list">
-          <li><i class="fa-solid fa-check-double"></i> •	Conduct screen-share based live process mapping workshops</li>
-          <li><i class="fa-solid fa-check-double"></i> •	Capture "as-is" workflows, tribal knowledge, risks, and exceptions</li>
-          <li><i class="fa-solid fa-check-double"></i> •	Develop SOPs, exception logs, compliance checklists</li>
-          <li><i class="fa-solid fa-check-double"></i> •	Align policies to business rules for seamless transition</li>
-        </ul>
-        <p class="text-muted">
-          Outputs: Checklist volumes, frequency maps, process handbook
-
-        </p>
-      </div>
-      <div class="col-lg-6 feature-image">
-        <img src="img/discovery.jpg" alt="Feature One">
-      </div>
-    </div>
-  </div>
-
-  <div id="feature2" class="feature-content">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <h4 class="fw-bold text-success">Duration: 3 Weeks</h4>
-        <p class="fst-italic text-muted">Goal: Minimize resistance, ensure capability alignment</p>
-        <ul class="list-unstyled feature-list">
-          <li><i class="fa-solid fa-check-double"></i>•	Dual-run with current team</li>
-          <li><i class="fa-solid fa-check-double"></i>•	Reverse shadowing with playbook validation</li>
-          <li><i class="fa-solid fa-check-double"></i>•	Set up SOPs, change logs, FAQs, issue tracker</li>
-          <li><i class="fa-solid fa-check-double"></i>•	Weekly transition updates and governance syncs</li>
-        </ul>
-        <p class="text-muted">
-          Outputs: SOP repository, KPI tracker, transition reports
-
-        </p>
-      </div>
-      <div class="col-lg-6 feature-image">
-        <img src="img/knowledge.jpg" alt="Feature Two">
-      </div>
-    </div>
-  </div>
-
-  <div id="feature3" class="feature-content">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <h4 class="fw-bold text-warning">Duration: 2 Weeks</h4>
-        <p class="fst-italic text-muted">Goal: Validate delivery capability at micro-scale</p>
-        <ul class="list-unstyled feature-list">
-          <li><i class="fa-solid fa-check-double"></i> •	Choose well-bounded scope (e.g. AP, Payroll)</li>
-          <li><i class="fa-solid fa-check-double"></i> •	Parallel processing with customer team to match outcomes</li>
-          <li><i class="fa-solid fa-check-double"></i> •	Review performance with Steering Committee</li>
-          <li><i class="fa-solid fa-check-double"></i> •	Iterate and refine before full-scale transition</li>
-        </ul>
-        <p class="text-muted">
-          Outputs: Pilot performance reports, sign-off documentation
-
-        </p>
-      </div>
-      <div class="col-lg-6 feature-image">
-        <img src="img/pilot.jpg" alt="Feature Three">
-      </div>
-    </div>
-  </div>
-
-  <div id="feature4" class="feature-content">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <h4 class="fw-bold text-info">Duration: Ongoing</h4>
-        <p class="fst-italic text-muted">Goal: Deliver SLA-bound, compliant, and scalable operations</p>
-        <ul class="list-unstyled feature-list">
-          <li><i class="fa-solid fa-check-double"></i> • Business-as-usual execution across AP, AR, Payroll, HR, Recruitment</li>
-          <li><i class="fa-solid fa-check-double"></i> •	SLA dashboards for TAT, accuracy, hiring cycles</li>
-          <li><i class="fa-solid fa-check-double"></i> •	Weekly/monthly scorecards with analytics</li>
-          <li><i class="fa-solid fa-check-double"></i> •	Monthly Kaizen workshops & quarterly maturity reviews</li>
-        </ul>
-        <p class="text-muted">
-          Outputs: Live dashboards, quality reports, audit trail summaries, improvement logs
-
-        </p>
-      </div>
-      <div class="col-lg-6 feature-image">
-        <img src="img/steady.jpg" alt="Feature Four">
-      </div>
-    </div>
-  </div>
-
-</div>
-
 </section>
+
+
 <!-- Check Our Services Section -->
-<section class="bg-light py-5" id="services">
+<section class="check-services-section py-5" id="services">
   <div class="container">
     <!-- Section Header -->
-    <div class="mb-5">
-
-      <h2 class="fw-bold text-dark">Check Our Services</h2>
+    <div class="check-services-header mb-5">
+      <p>Services <span class="underline"></span></p>
+      <h2 class="fw-bold border-bottom border-3 border-danger d-inline-block pb-2">Check Our Services</h2>
     </div>
 
     <!-- Services Grid -->
     <div class="row g-4">
+
       <!-- Service Item -->
-      <div class="col-12 col-lg-6" >
-        <div class="d-flex bg-white p-4 shadow-sm rounded align-items-start h-100">
-          <div class="text-danger fs-3 me-3">💼</div>
-          <div>
-            <h5 class="fw-bold">Finance & Accounting</h5>
-            <p class="mb-0 text-muted"><span>Smart Finance Operations</span><br> 
-                    End-to-end support for AR, AP, financial planning, health checks, and compliance tracking to ensure accuracy and control.
+      <div class="col-12 col-lg-6">
+        <div class="service-box">
+          <span class="service-icon">💼</span>
+          <div class="service-content">
+            <h5>Finance &amp; Accounting</h5>
+            <p class="fw-semibold">Smart Finance Operations<br/>
+              End-to-end support for AR, AP, financial planning, health checks, and compliance tracking to ensure accuracy and control.
             </p>
           </div>
         </div>
@@ -301,25 +317,12 @@
 
       <!-- Service Item -->
       <div class="col-12 col-lg-6">
-        <div class="d-flex bg-white p-4 shadow-sm rounded align-items-start h-100">
-          <div class="text-danger fs-3 me-3">📝</div>
-          <div>
-            <h5 class="fw-bold">Legal & Compliance</h5>
-            <p class="mb-0 text-muted">Contract and Clause Intelligence<br>
-                Clause analysis, redlining, contract creation & verification powered by policy-aware copilots.
-             </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Service Item -->
-      <div class="col-12 col-lg-6">
-        <div class="d-flex bg-white p-4 shadow-sm rounded align-items-start h-100">
-          <div class="text-danger fs-3 me-3">📊</div>
-          <div>
-            <h5 class="fw-bold">IT & Infra Support</h5>
-            <p class="mb-0 text-muted">Always-On Infra Backbone<br>
-                  Remote support, incident resolution, OS & directory management with real-time SLA compliance.
+        <div class="service-box">
+          <span class="service-icon">📝</span>
+          <div class="service-content">
+            <h5>Legal &amp; Compliance</h5>
+            <p class="fw-semibold">Contract and Clause Intelligence<br/>
+              Clause analysis, redlining, contract creation &amp; verification powered by policy-aware copilots.
             </p>
           </div>
         </div>
@@ -327,12 +330,12 @@
 
       <!-- Service Item -->
       <div class="col-12 col-lg-6">
-        <div class="d-flex bg-white p-4 shadow-sm rounded align-items-start h-100">
-          <div class="text-danger fs-3 me-3">👥</div>
-          <div>
-            <h5 class="fw-bold"> Customer & Partner Support</h5>
-            <p class="mb-0 text-muted">Support That Delivers Success<br>
-                    L1/L2 support and customer success operations that drive partner satisfaction and service excellence.
+        <div class="service-box">
+          <span class="service-icon">📊</span>
+          <div class="service-content">
+            <h5>IT &amp; Infra Support</h5>
+            <p class="fw-semibold">Always-On Infra Backbone<br/>
+              Remote support, incident resolution, OS &amp; directory management with real-time SLA compliance.
             </p>
           </div>
         </div>
@@ -340,72 +343,115 @@
 
       <!-- Service Item -->
       <div class="col-12 col-lg-6">
-        <div class="d-flex bg-white p-4 shadow-sm rounded align-items-start h-100">
-          <div class="text-danger fs-3 me-3">☀️</div>
-          <div>
-            <h5 class="fw-bold"> HR & Payroll</h5>
-            <p class="mb-0 text-muted">Human Capital, Digitally Managed<br>
-                    BGV, onboarding, compensation & benefits – all managed with precision and automation-friendly workflows.
-             </p>
+        <div class="service-box">
+          <span class="service-icon">👥</span>
+          <div class="service-content">
+            <h5>Customer &amp; Partner Support</h5>
+            <p class="fw-semibold">Support That Delivers Success<br/>
+              L1/L2 support and customer success operations that drive partner satisfaction and service excellence.
+            </p>
           </div>
         </div>
       </div>
 
       <!-- Service Item -->
       <div class="col-12 col-lg-6">
-        <div class="d-flex bg-white p-4 shadow-sm rounded align-items-start h-100">
-          <div class="text-danger fs-3 me-3">📅</div>
-          <div>
-            <h5 class="fw-bold"> Administrative Support</h5>
-            <p class="mb-0 text-muted">Office Ops, Streamlined<br>
-                        General admin, procurement, and records management with document handling and audit readiness
-             </p>
+        <div class="service-box">
+          <span class="service-icon">☀️</span>
+          <div class="service-content">
+            <h5>HR &amp; Payroll</h5>
+            <p class="fw-semibold">Human Capital, Digitally Managed<br/>
+              BGV, onboarding, compensation &amp; benefits – all managed with precision and automation-friendly workflows.
+            </p>
           </div>
         </div>
       </div>
+
+      <!-- Service Item -->
+      <div class="col-12 col-lg-6">
+        <div class="service-box">
+          <span class="service-icon">📅</span>
+          <div class="service-content">
+            <h5>Administrative Support</h5>
+            <p class="fw-semibold">Office Ops, Streamlined<br/>
+              General admin, procurement, and records management with document handling and audit readiness.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
-
-<!--Team -->
-<section id="team" class="team-section py-5 bg-light" id="team">
+ <!-- Team -->
+<section class="team-section py-5" id="team">
   <div class="container">
     <div class="text-start mb-5">
       <p class="text-uppercase text-muted small fw-bold mb-1">Team</p>
       <h2 class="fw-bold border-bottom border-3 border-danger d-inline-block pb-2">Check Our Team</h2>
     </div>
-
     <div class="row g-4">
-      <!-- Team Member 1 -->
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="team-member card border-0 shadow-sm">
-          <img src="img/Suganthi-palaniswamy.jpg" alt="Suganthi-Palaniswamy" class="card-img-top">
-          <div class="card-body text-center bg-white">
-            <h5 class="fw-bold mb-0">Suganthi-Palaniswamy</h5>
-            <p class="text-muted small">Managing Director</p>
+
+      <!-- Member 1 -->
+      <div class="col-sm-12 col-md-6 col-lg-4"  data-aos="fade-up" data-aos-delay="0">
+        <div class="team-card position-relative">
+          <img src="img/Suganthi-palaniswamy.jpg" alt="Suganthi Palaniswamy" class="team-photo w-100">
+          <div class="team-overlay-box position-absolute start-50 translate-middle-x bg-white shadow-sm">
+            <div class="p-3 d-flex justify-content-between align-items-center">
+              <div>
+                <h6 class="fw-semibold text-dark mb-1">Suganthi Palaniswamy</h6>
+                <p class="text-muted small fst-italic mb-0">Managing Director</p>
+              </div>
+              <div class="social-icons ms-2">
+                <a href="#"><i class="bi bi-x-circle me-2"></i></a>
+                <a href="#"><i class="bi bi-facebook me-2"></i></a>
+                <a href="#"><i class="bi bi-instagram me-2"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Team Member 2 -->
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="team-member card border-0 shadow-sm">
-          <img src="img/Jaishree-kondoru.jpg" alt="Jaishree-Konduru" class="card-img-top">
-          <div class="card-body text-center bg-white">
-            <h5 class="fw-bold mb-0">Jaishree-Konduru</h5>
-            <p class="text-muted small">Director</p>
+      <!-- Member 2 -->
+      <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="team-card position-relative">
+          <img src="img/Jaishree-kondoru.jpg" alt="Jaishree Konduru" class="team-photo w-100">
+          <div class="team-overlay-box position-absolute start-50 translate-middle-x bg-white shadow-sm">
+            <div class="p-3 d-flex justify-content-between align-items-center">
+              <div>
+                <h6 class="fw-semibold text-dark mb-1">Jaishree Konduru</h6>
+                <p class="text-muted small fst-italic mb-0">Director</p>
+              </div>
+              <div class="social-icons ms-2">
+                <a href="#"><i class="bi bi-x-circle me-2"></i></a>
+                <a href="#"><i class="bi bi-facebook me-2"></i></a>
+                <a href="#"><i class="bi bi-instagram me-2"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Team Member 3 -->
-      <div class="col-sm-12 col-md-6 col-lg-4">
-        <div class="team-member card border-0 shadow-sm">
-          <img src="img/Mirdula-Ravichandran.jpg" alt="Mirdula-Ravichandran" class="card-img-top">
-          <div class="card-body text-center bg-white">
-            <h5 class="fw-bold mb-0">Mirdula-Ravichandran</h5>
-            <p class="text-muted small">Director</p>
+      <!-- Member 3 -->
+      <div class="col-sm-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-card position-relative">
+          <img src="img/Mirdula-Ravichandran.jpg" alt="Mirdula Ravichandran" class="team-photo w-100">
+          <div class="team-overlay-box position-absolute start-50 translate-middle-x bg-white shadow-sm">
+            <div class="p-3 d-flex justify-content-between align-items-center">
+              <div>
+                <h6 class="fw-semibold text-dark mb-1">Mirdula Ravichandran</h6>
+                <p class="text-muted small fst-italic mb-0">Director</p>
+              </div>
+              <div class="social-icons ms-2">
+                <a href="#"><i class="bi bi-x-circle me-2"></i></a>
+                <a href="#"><i class="bi bi-facebook me-2"></i></a>
+                <a href="#"><i class="bi bi-instagram me-2"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -413,150 +459,141 @@
     </div>
   </div>
 </section>
+
+
+
 
 
 <!-- contact Us -->
-<section id="contact" class="contact-section py-5">
-  <div class="container">
-    <div class="text-start mb-5">
-      <p class="text-uppercase text-muted small fw-bold mb-1">Contact</p>
-      <h2 class="fw-bold border-bottom border-3 border-danger d-inline-block pb-2">
+<section class="contact-section py-5" id="contact">
+<div class="container">
+<div class="text-start mb-5">
+<p class="text-uppercase text-muted small fw-bold mb-1">Contact</p>
+<h2 class="fw-bold border-bottom border-3 border-danger d-inline-block pb-2">
         Feel Free to Contact Us
       </h2>
-    </div>
-
-    <div class="row g-4">
-      <!-- Left: Contact Info -->
-      <div class="col-lg-6">
-        <div class="row g-4">
-          <div class="col-12">
-            <div class="contact-info-card shadow-sm text-center p-4 h-100">
-              <div class="icon-circle mx-auto mb-3">
-                <i class="bi bi-geo-alt fs-4 text-danger"></i>
-              </div>
-              <h5 class="fw-bold">Address</h5>
-              <p class="text-muted mb-0">43 and 44, VN Industrial Estate, 3rd Cross Rd, Peelamedu, Tamil Nadu 641004</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="contact-info-card shadow-sm text-center p-4 h-100">
-              <div class="icon-circle mx-auto mb-3">
-                <i class="bi bi-telephone fs-4 text-danger"></i>
-              </div>
-              <h6 class="fw-bold">Call Us</h6>
-              <p class="text-muted mb-0">+ 0123456789</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="contact-info-card shadow-sm text-center p-4 h-100">
-              <div class="icon-circle mx-auto mb-3">
-                <i class="bi bi-envelope fs-4 text-danger"></i>
-              </div>
-              <h6 class="fw-bold">Email Us</h6>
-              <p class="text-muted mb-0">@covainexus.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Right: Contact Form -->
-      <div class="col-lg-6">
-        <div class="shadow-sm p-4 bg-white">
-          <form>
-            <div class="row g-3">
-              <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Your Name" required>
-              </div>
-              <div class="col-md-6">
-                <input type="email" class="form-control" placeholder="Your Email" required>
-              </div>
-              <div class="col-12">
-                <input type="text" class="form-control" placeholder="Subject" required>
-              </div>
-              <div class="col-12">
-                <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="col-12 text-center">
-                <button type="submit" class="btn btn-danger px-4 py-2 rounded-pill">Send Message</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+</div>
+<div class="row g-4">
+<!-- Left: Contact Info -->
+<div class="col-lg-6">
+<div class="row g-4">
+<div class="col-12">
+<div class="contact-info-card shadow-sm text-center p-4 h-100" data-aos="fade-right">
+<div class="icon-circle mx-auto mb-3">
+<i class="bi bi-geo-alt fs-4 text-danger"></i>
+</div>
+<h5 class="fw-bold">Address</h5>
+<p class="text-muted mb-0">43 and 44, VN Industrial Estate, 3rd Cross Rd, Peelamedu,<br> Tamil Nadu 641004</p>
+</div>
+</div>
+<div class="col-md-6">
+<div class="contact-info-card shadow-sm text-center p-4 h-100" data-aos="fade-right">
+<div class="icon-circle mx-auto mb-3">
+<i class="bi bi-telephone fs-4 text-danger"></i>
+</div>
+<h6 class="fw-bold">Call Us</h6>
+<p class="text-muted mb-0">+ 0123456789</p>
+</div>
+</div>
+<div class="col-md-6">
+<div class="contact-info-card shadow-sm text-center p-4 h-100" data-aos="fade-right">
+<div class="icon-circle mx-auto mb-3">
+<i class="bi bi-envelope fs-4 text-danger"></i>
+</div>
+<h6 class="fw-bold">Email Us</h6>
+<p class="text-muted mb-0">@covainexus.com</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Contact Form -->
+<div class="col-lg-6">
+<div class="shadow-sm p-4 bg-white" data-aos="fade-left">
+<form>
+<div class="row g-3">
+<div class="col-md-6">
+<input class="form-control" placeholder="Your Name" required="" type="text"/>
+</div>
+<div class="col-md-6">
+<input class="form-control" placeholder="Your Email" required="" type="email"/>
+</div>
+<div class="col-12">
+<input class="form-control" placeholder="Subject" required="" type="text"/>
+</div>
+<div class="col-12">
+<textarea class="form-control" placeholder="Message" required="" rows="5"></textarea>
+</div>
+<div class="col-12 text-center">
+<button class="btn btn-danger px-4 py-2 rounded-pill" type="submit">Send Message</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
 </section>
+<!-- Footer -->
+<footer class="footer text-light pt-5 pb-4">
+<div class="container">
+<div class="row gy-4">
+<!-- Left Column -->
+<div class="col-lg-3 col-md-6">
+<h5 class="fw-bold text-white">CovAI Nexus</h5>
+<p class="small">43 and 44, VN Industrial Estate,<br/>  3rd Cross Rd, Peelamedu,<br/>  Tamil Nadu 641004</p>
+<p class="mb-1"><strong>Phone:</strong> +0123456789</p>
+<p><strong>Email:</strong>@covainexus.com</p>
+<div class="d-flex gap-3">
+<a class="social-icon" href="https://x.com/"><i class="bi bi-x"></i></a>
+<a class="social-icon" href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+<a class="social-icon" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+<a class="social-icon" href="https://in.linkedin.com/"><i class="bi bi-linkedin"></i></a>
+</div>
+</div>
+<!-- Useful Links -->
+<div class="col-lg-2 col-md-6">
+<h6 class="fw-bold text-white">Useful Links</h6>
+<ul class="list-unstyled small">
+<li><i class="bi bi-chevron-right text-danger"></i> <a class="text-decoration-none text-white" href="index.html">Home</a></li>
+<li><i class="bi bi-chevron-right text-danger"></i> <a class="text-decoration-none text-white" href="#services">Services</a></li>
+<li><i class="bi bi-chevron-right text-danger"></i> <a class="text-decoration-none text-white" href="blog.html">Blog</a></li>
+<li><i class="bi bi-chevron-right text-danger"></i> <a class="text-decoration-none text-white" href="#contact">Contact Us</a></li>
+</ul>
+</div>
+<!-- Our Services -->
+<div class="col-lg-3 col-md-6">
+<h6 class="fw-bold text-white">Our Services</h6>
+<ul class="list-unstyled small">
+<li><i class="bi bi-chevron-right text-danger"></i> <a class="text-decoration-none text-white" href="#services">Finance &amp; Accounting</a></li>
+<li><i class="bi bi-chevron-right text-danger"></i> <a class="text-decoration-none text-white" href="#services">Legal &amp; Compliance</a></li>
+<li><i class="bi bi-chevron-right text-danger"></i> <a class="text-decoration-none text-white" href="#services">IT &amp; Infra Support</a></li>
+<li><i class="bi bi-chevron-right text-danger"></i> <a class="text-decoration-none text-white" href="#services">Customer &amp; Partner Support</a></li>
+<li><i class="bi bi-chevron-right text-danger"></i> <a class="text-decoration-none text-white" href="#services">HR &amp; Payroll</a></li>
+<li><i class="bi bi-chevron-right text-danger"></i> <a class="text-decoration-none text-white" href="#services">Administrative Support</a></li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div class="col-lg-4 col-md-6">
+<h6 class="fw-bold text-white">Our Newsletter</h6>
+<p class="small">Subscribe to our newsletter and receive the latest news about our products and services!</p>
+<form class="d-flex">
+<input class="form-control me-2" placeholder="Email" type="email"/>
+<button class="btn btn-danger">Subscribe</button>
+</form>
+</div>
+</div>
+<hr class="my-4 border-secondary"/>
+<!-- Copyright -->
+<div class="text-center small">
+<p class="mb-1">© Copyright <strong class="text-white">CovAI Nexus</strong>. All Rights Reserved</p>
 
- <!-- Footer -->
-<footer class="footer bg-dark text-light pt-5 pb-4">
-  <div class="container">
-    <div class="row gy-4">
-
-      <!-- Left Column -->
-      <div class="col-lg-3 col-md-6">
-        <h5 class="fw-bold text-white">CovAI Nexus</h5>
-        <p class="small">43 and 44, VN Industrial Estate,<br>  3rd Cross Rd, Peelamedu,<br>  Tamil Nadu 641004</p>
-        <p class="mb-1"><strong>Phone:</strong> +0123456789</p>
-        <p><strong>Email:</strong>@covainexus.com</p>
-        <div class="d-flex gap-3">
-          <a href="https://x.com/" class="social-icon"><i class="bi bi-x"></i></a>
-          <a href="https://www.facebook.com/" class="social-icon"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.instagram.com/" class="social-icon"><i class="bi bi-instagram"></i></a>
-          <a href="https://in.linkedin.com/" class="social-icon"><i class="bi bi-linkedin"></i></a>
-        </div>
-      </div>
-
-      <!-- Useful Links -->
-      <div class="col-lg-2 col-md-6">
-        <h6 class="fw-bold text-white">Useful Links</h6>
-        <ul class="list-unstyled small">
-<li><i class="bi bi-chevron-right text-danger"></i> <a href="index.html" class="text-decoration-none text-white">Home</a></li>
-<li><i class="bi bi-chevron-right text-danger"></i> <a href="#services" class="text-decoration-none text-white">Services</a></li>
-<li><i class="bi bi-chevron-right text-danger"></i> <a href="blog.html" class="text-decoration-none text-white">Blog</a></li>
-<li><i class="bi bi-chevron-right text-danger"></i> <a href="#contact" class="text-decoration-none text-white">Contact Us</a></li>
-
-
-        </ul>
-      </div>
-
-      <!-- Our Services -->
-      <div class="col-lg-3 col-md-6">
-        <h6 class="fw-bold text-white">Our Services</h6>
-        <ul class="list-unstyled small">
-<li><i class="bi bi-chevron-right text-danger"></i> <a href="#services" class="text-decoration-none text-white">Finance & Accounting</a></li>
-<li><i class="bi bi-chevron-right text-danger"></i> <a href="#services" class="text-decoration-none text-white">Legal & Compliance</a></li>
-<li><i class="bi bi-chevron-right text-danger"></i> <a href="#services" class="text-decoration-none text-white">IT & Infra Support</a></li>
-<li><i class="bi bi-chevron-right text-danger"></i> <a href="#services" class="text-decoration-none text-white">Customer & Partner Support</a></li>
-<li><i class="bi bi-chevron-right text-danger"></i> <a href="#services" class="text-decoration-none text-white">HR & Payroll</a></li>
-<li><i class="bi bi-chevron-right text-danger"></i> <a href="#services" class="text-decoration-none text-white">Administrative Support</a></li>
-
-        </ul>
-      </div>
-
-      <!-- Newsletter -->
-      <div class="col-lg-4 col-md-6">
-        <h6 class="fw-bold text-white">Our Newsletter</h6>
-        <p class="small">Subscribe to our newsletter and receive the latest news about our products and services!</p>
-        <form class="d-flex">
-          <input type="email" class="form-control me-2" placeholder="Email">
-          <button class="btn btn-danger">Subscribe</button>
-        </form>
-      </div>
-
-    </div>
-
-    <hr class="my-4 border-secondary">
-
-    <!-- Copyright -->
-    <div class="text-center small">
-      <p class="mb-1">&copy; Copyright <strong class="text-white">CovAI Nexus</strong>. All Rights Reserved</p>
-      </p>
-    </div>
-  </div>
+</div>
+</div>
 </footer>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init({ duration: 1000, once: true });</script>
 </body>
 </html>
