@@ -185,7 +185,7 @@ body {
 /* Services Section */
 .featured-heading {
   display: inline-block;
-  border-bottom: 3px solid #f97316;
+  border-bottom: 3px solid #dc3545;
   padding-bottom: 0.25rem;
   font-size: 2rem;
   color: #1f2937;
@@ -218,7 +218,7 @@ body {
 }
 
 .card-icon {
-  background-color: #f97316;
+  background-color: #dc3545;
   color: white;
   font-size: 1.25rem;
   width: 3rem;
@@ -251,7 +251,7 @@ body {
 
 .featured-services-section {
   padding: 60px 0;
-  background-color: #fff;
+  background-color: #f1f4fa;;
 }
 
 .featured-services-section .section-header p {
@@ -329,7 +329,7 @@ body {
       background-color: #f8f9fa;
     }
     .icon-box.active {
-      background-color: #fc4f1a;
+      background-color: #dc3545;
       color: #fff;
     }
     .icon-box.active i {
@@ -391,6 +391,23 @@ body {
   transition: color 0.3s ease;
 }
 
+.services-line {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.services-line .underline {
+  width: 80px; /* Reduced line length */
+  height: 2px;
+  background-color: #dc3545; /* Bootstrap 'danger' red */
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+
+
 /* ✅ On hover: only text changes */
 .service-box:hover .service-content h5 {
   color: #f03c2e;
@@ -403,6 +420,11 @@ body {
 
 
  /* Our Team */
+.team-section {
+  background-color: #f1f4fa;;
+  padding: 60px 0;
+}
+
 .team-card {
   position: relative;
   border-radius: 8px;
